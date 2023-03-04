@@ -27,6 +27,11 @@ nav a {
     color: white;
     margin: 0px 10px;
 }
+nav a:hover{
+    font-size: 1em;
+    transition: all .3s ease-in-out;
+    color: #EDD246;
+}
 
 main{
     display: block;
@@ -61,6 +66,7 @@ p{
     border-radius: 35px;
     box-shadow:  1px 1px 4px rgba(0, 0, 0, 0.204);
 }
+
 .image{
     display: block;
     width: 100%;
