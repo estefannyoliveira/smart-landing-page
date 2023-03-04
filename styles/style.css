@@ -1,0 +1,135 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Tilt Neon', cursive;*/
+    
+}
+
+:root{
+    ---cor01: #136ab7;
+    ---cor02: #0665B9;
+    ---cor03: #EDD246;
+}
+body, html{
+
+    width: 100%;
+    /*background-color: #2491F2;*/
+    background-color: var(---cor01);
+    color: white;
+}
+header{
+    width: 100%;
+    text-align: right;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+    padding: 0px 20px;
+}
+header img {
+    display: flex;
+    width: 31px;
+    height: 37px;
+    margin-left: 50px;
+}
+header nav{
+    font-weight: 500;
+    letter-spacing: 2px; 
+}
+nav a {
+    font-size: 1em;
+    margin-right: 50px;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    font-size: 1.6em;
+    transition: all .3s ease-in-out;
+    color: #EDD246;
+}
+main{
+    display: flex;
+    margin: auto;
+    height: 100%;
+    width:  90%;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 15px;
+
+}
+
+h1{
+    font-size: 4.5em;
+    margin: 0px 0px 10px;
+    line-height: 1em;
+    letter-spacing: 5px;
+}
+h2{
+    line-height: 1em;
+    font-size: 2.6em;
+    letter-spacing: 8px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+.h2-yellow{
+    color: #EDD246;
+    letter-spacing: 6px;
+    font-weight: 700;
+    
+}
+p{
+    font-size: 1.8em;
+    margin: 10px 0px 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+}
+.buy{
+    color: #f6f6f6;
+    background-color: #1389f0;
+    
+    width: 250px;
+    height: 78px;
+    font-size: 2.5em;
+    font-weight: 700;
+    
+    border: none;
+    border-radius: 35px;
+    box-shadow:  1px 1px 4px rgba(0, 0, 0, 0.204);
+}
+.buy:hover{
+    cursor: pointer;
+    color: #EDD246;
+    background-color: #023765;
+    transition: all .3s ease-in-out;
+   
+
+}
+img{
+    display: flex;
+    width: 100%;
+    margin: 20px 0;
+    align-items: center;
+}
+
+.image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 885px){
+    h1{font-size: 3.5em;
+    margin: 0px 0px 10px;
+    line-height: 1em;
+    letter-spacing: 5px;}
+}
