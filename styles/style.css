@@ -10,13 +10,14 @@
 
 :root{
     ---cor01: #136ab7;
+    ---cor011: #2491F2;
     ---cor02: #0665B9;
     ---cor03: #EDD246;
 }
 body, html{
     height: 100%;
     width: 100%;
-    background-color: var(---cor01);
+    background-color: var(---cor011);
     color: white;
 }
 header{
