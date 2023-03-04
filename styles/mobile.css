@@ -22,10 +22,10 @@ header nav{
     
 }
 nav a {
-    font-size: 1.2em;
+    font-size: 1em;
     text-decoration: none;
     color: white;
-    margin-right: 6px;
+    margin: 0px 10px;
 }
 
 main{
@@ -71,3 +71,11 @@ p{
 
 
 }
+@media screen and (max-width: 320px){
+    nav a {
+        font-size: .8em;
+        text-decoration: none;
+        color: white;
+        margin: 0px 10px;
+    }
+}    
