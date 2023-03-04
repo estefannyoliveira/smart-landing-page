@@ -126,9 +126,3 @@ img{
     align-items: center;
 }
 
-@media screen and (max-width: 885px){
-    h1{font-size: 3.5em;
-    margin: 0px 0px 10px;
-    line-height: 1em;
-    letter-spacing: 5px;}
-}
