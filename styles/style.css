@@ -14,9 +14,8 @@
     ---cor03: #EDD246;
 }
 body, html{
-
+    height: 100%;
     width: 100%;
-    /*background-color: #2491F2;*/
     background-color: var(---cor01);
     color: white;
 }
@@ -39,20 +38,19 @@ header nav{
     letter-spacing: 2px; 
 }
 nav a {
-    font-size: 1em;
+    font-size: 1.3em;
     margin-right: 50px;
     text-decoration: none;
     color: white;
 }
 nav a:hover{
-    font-size: 1.6em;
+    font-size: 1.8em;
     transition: all .3s ease-in-out;
     color: #EDD246;
 }
 main{
     display: flex;
     margin: auto;
-    height: 100%;
     width:  90%;
 }
 article{
